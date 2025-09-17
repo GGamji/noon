@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/* 한글 SUIT */
+@font-face {
+  font-family: "SUIT-Bold";
+  src: url(../fonts/SUIT-Bold.otf);
+}
+@font-face {
+  font-family: "SUIT-Medium";
+  src: url(../fonts/SUIT-Medium.otf);
+}
+@font-face {
+  font-family: "AritaBuriKR-Bold";
+  src: url(../fonts/AritaBuriKR-Bold.ttf);
+}
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url(../fonts/Pretendard-Bold.otf);
+}
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url(../fonts/Pretendard-Regular.otf);
+}

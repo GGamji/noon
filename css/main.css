@@ -1,0 +1,238 @@
+body {
+  height: 100vh;
+}
+
+/* Header */
+
+.header_wrap {
+  margin: 1% 5%;
+  display: flex;
+  gap: 90px;
+  font-family: "AritaBuriKR-Bold";
+}
+.header_wrap .blind {
+  display: block;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.header_wrap h1 a {
+  display: block;
+  width: 162px;
+  height: 30px;
+  background-image: url(../img/logo_b.png);
+  background-repeat: none;
+}
+.header_wrap #gnb {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_wrap #gnb .dep1 {
+  display: flex;
+  gap: 80px;
+}
+.header_wrap #gnb .header_util {
+  display: flex;
+  gap: 60px;
+}
+
+/* Main */
+
+.product_img .img_box {
+  width: 50%;
+  display: flex;
+}
+.body_line,
+.room_line {
+  padding: 160px 3% 0;
+  font-family: "Pretendard-Bold";
+}
+.body_line h2 {
+  font-family: "SUIT-Bold";
+  font-size: 50px;
+  text-align: center;
+}
+.body_line .body_line_box {
+  padding: 3% 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.body_line .body_box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
+.body_line .body_title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.body_line .best_box {
+  padding: 0.5% 0.7%;
+  width: 11%;
+  text-align: center;
+  color: #fafafa;
+  background: #0a0a0a;
+}
+
+.room_line h2 {
+  font-family: "SUIT-Bold";
+  font-size: 50px;
+  text-align: center;
+}
+.room_line .room_line_box {
+  padding: 3% 1%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.room_line .room_box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
+.room_line .room_title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.room_line .best_box {
+  padding: 0.5% 0.7%;
+  width: 11%;
+  text-align: center;
+  color: #fafafa;
+  background: #0a0a0a;
+}
+
+.best_line {
+  font-family: "SUIT-Medium";
+  padding: 5% 0 0 0;
+}
+.best_line .best_line_box {
+  display: flex;
+  height: 100vh;
+}
+.best_line .best_line_box .best_box {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 80px;
+}
+.best_line .best_line_box .best_txt_box {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.best_txt_box .best_title {
+  font-family: "SUIT-Bold";
+  font-size: 50px;
+}
+.best_txt_box .best_content {
+  font-size: 20 px;
+}
+.best_line .best_line_box img {
+  width: 50%;
+}
+.best_line .best_line_box .best_box .best_button {
+  border: 1px solid #000;
+  width: 214px;
+  font-size: 24px;
+  border-radius: 38px;
+  padding: 0.6%;
+  text-align: center;
+}
+.best_line .best_line_box .best_box .best_button:hover {
+  background: #eaeceb;
+}
+
+/* Footer */
+
+.footer_box {
+  background: #333;
+  color: #fafafa;
+  font-family: "Pretendard-Regular";
+  padding: 4% 2% 2% 2%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_content .company_title {
+  font-family: "Pretendard-Bold";
+}
+.footer_box .footer_content a {
+  display: block;
+  width: 200px;
+  height: 38px;
+}
+.footer_box .footer_content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.footer_content .company_box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer_content .company_box .company_title {
+  font-size: 18px;
+}
+.footer_content .company_box .company_txt {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.footer_content .service_box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+.footer_content .service_box .bank_title,
+.cs_title {
+  font-family: "Pretendard-Bold";
+}
+.footer_content .service_box .bank_box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer_content .service_box .bank_box .bank_content {
+  display: flex;
+  gap: 34px;
+}
+.footer_content .service_box .cs_box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer_content .service_box .cs_box .cs_content {
+  display: flex;
+  gap: 34px;
+}
+.footer_box .footer_btn {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.footer_box .footer_btn button {
+  font-family: "SUIT-Medium";
+  font-size: 20px;
+  border: 1px solid #fafafa;
+  border-radius: 50px;
+  padding: 2% 5%;
+  width: 180px;
+}
+.footer_box .footer_btn button:last-child {
+  background: #676767;
+}
