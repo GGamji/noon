@@ -6,8 +6,16 @@
   src: url(../fonts/SUIT-Bold.otf);
 }
 @font-face {
+  font-family: "SUIT-SemiBold";
+  src: url(../fonts/SUIT-SemiBold.otf);
+}
+@font-face {
   font-family: "SUIT-Medium";
   src: url(../fonts/SUIT-Medium.otf);
+}
+@font-face {
+  font-family: "SUIT-Regular";
+  src: url(../fonts/SUIT-Regular.otf);
 }
 @font-face {
   font-family: "AritaBuriKR-Bold";
@@ -20,4 +28,12 @@
 @font-face {
   font-family: "Pretendard-Regular";
   src: url(../fonts/Pretendard-Regular.otf);
+}
+@font-face {
+  font-family: "BookkMyungjo_Light";
+  src: url(../fonts/BookkMyungjo_Light.ttf);
+}
+@font-face {
+  font-family: "경기천년바탕OTF_Regular";
+  src: url(../fonts/경기천년바탕OTF_Regular.otf);
 }
