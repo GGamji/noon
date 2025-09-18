@@ -34,6 +34,10 @@
   src: url(../fonts/BookkMyungjo_Light.ttf);
 }
 @font-face {
+  font-family: "BookkMyungjo_Bold";
+  src: url(../fonts/BookkMyungjo_Bold.ttf);
+}
+@font-face {
   font-family: "경기천년바탕OTF_Regular";
   src: url(../fonts/경기천년바탕OTF_Regular.otf);
 }
