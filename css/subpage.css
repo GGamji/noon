@@ -289,3 +289,23 @@ header .header_util {
   padding: 0 20%;
   margin: 3% auto;
 }
+.tap {
+  padding: 5% 0 3% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  font-size: 14px;
+  color: #666;
+  border-bottom: 1px solid #ddd;
+}
+.tap > button {
+  position: relative;
+  padding-right: 5%;
+}
+.tap .dash::after {
+  content: "/";
+  position: absolute;
+  top: 0;
+  right: 0;
+}
