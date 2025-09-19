@@ -3,9 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/subpage.css" />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/font.css" />
+
+    <!-- JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/ui/1.13.3/jquery-ui.min.js"
+      integrity="sha256-sw0iNNXmOJbQhYFuC9OF2kOlD5KQKe1y5lfBn4C9Sjg="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="../js/sub.js"></script>
     <title>oain 상세페이지</title>
   </head>
   <body>
@@ -70,7 +89,7 @@
     </header>
     <main class="main_wrap">
       <div class="main_img">
-        <img src="../img/body_line1.png" alt="" />
+        <img src="../img/sub/subpage.jpg" alt="" />
       </div>
       <div class="main_content">
         <span class="oain_title">오아인그린</span>
@@ -84,7 +103,46 @@
             <img src="../icon/download-icon.png" alt="" />
           </div>
         </div>
+        <div class="main_service">
+          <span>구매혜택 <span class="point">3,800 포인트 적립예정</span></span>
+          <span
+            >배송비
+            <span class="point">3,000원 (50,000원 이상 무료배송)</span></span
+          >
+          <select name="" id="delivery">
+            <option value="">택배</option>
+            <option value="">방문수령</option>
+            <option value="">퀵서비스</option>
+          </select>
+        </div>
+        <div class="count_wrap">
+          <span>수량</span>
+          <div class="count_btn _count">
+            <button type="button" class="minus">-</button>
+            <input type="text" class="inp" value="1" />
+            <button type="button" class="plus">+</button>
+          </div>
+          <span>38,000원</span>
+        </div>
+        <div class="main_price">
+          <span>총 상품금액(1개)</span>
+          <span class="last_price">38,000원</span>
+        </div>
+        <div class="main_button">
+          <div class="button_box">
+            <button class="product">구매하기</button>
+            <button class="gift">선물하기</button>
+            <button class="cart">장바구니</button>
+          </div>
+          <div class="main_promotion">
+            <button class="npay">
+              <img src="../img/sub/n_icon.png" alt="" /> pay 구매하기
+            </button>
+            <button>찜</button>
+          </div>
+        </div>
       </div>
     </main>
+    <img src="../img/sub/page_img2.jpg" alt="" class="page_img" />
   </body>
 </html>

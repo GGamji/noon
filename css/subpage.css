@@ -11,7 +11,7 @@ button {
 
 header {
   position: relative;
-  margin: 1% 5%;
+  margin: 0 8%;
   display: flex;
   justify-content: space-between;
   font-family: "AritaBuriKR-Bold";
@@ -74,12 +74,15 @@ header .header_util {
 
 /* Main */
 .main_wrap {
-  border: 1px solid red;
-  margin: 5% 5%;
+  margin: 5% 8%;
   padding: 2% 0 0 0;
   display: flex;
-  gap: 100px;
+  gap: 120px;
   font-family: "BookkMyungjo_Light";
+}
+.main_wrap .main_img {
+  width: 50%;
+  height: 100%;
 }
 .main_wrap .main_content {
   position: relative;
@@ -87,7 +90,6 @@ header .header_util {
   flex-direction: column;
   gap: 10px;
   width: 50%;
-  padding: 2% 0;
 }
 .main_wrap .oain_title {
   font-family: "BookkMyungjo_Bold";
@@ -116,7 +118,7 @@ header .header_util {
   border-radius: 10px;
   padding: 5%;
   margin: 3% 0 0 0;
-  width: 100%;
+  width: 90%;
 }
 .main_wrap .cupon span:nth-child(2) {
   font-size: 22px;
@@ -128,7 +130,7 @@ header .header_util {
   gap: 5px;
   position: absolute;
   top: 35%;
-  right: 15%;
+  right: 13%;
   padding: 1.3%;
   background: #1a1a1a;
   border-radius: 10px;
@@ -138,4 +140,150 @@ header .header_util {
 .main_wrap .cupon .download > img {
   width: 15px;
   height: 15px;
+  cursor: pointer;
+}
+.main_wrap .main_content .main_service {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 5%;
+  padding-top: 10%;
+  border-top: 1px solid #999;
+}
+.main_wrap .main_content .main_service > span {
+  font-size: 14px;
+  font-family: "BookkMyungjo_Bold";
+}
+.main_wrap .main_content .main_service .point {
+  font-size: 12px;
+  font-family: "BookkMyungjo_Light";
+}
+.main_wrap .main_content .main_service #delivery {
+  border: 1px solid #777;
+  padding: 1%;
+  width: 20%;
+}
+
+/* .main_wrap .count_wrap {
+  gap: 30px;
+  width: 90%;
+  padding: 3%;
+  margin-top: 8%;
+  border: 1px solid #777;
+} */
+
+.main_wrap .main_content .count_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  padding: 3%;
+  margin-top: 8%;
+  background: #fafafa;
+}
+.count_btn {
+  border: 1px solid #ddd;
+  overflow: hidden;
+  width: calc(52px + 34px);
+  display: flex;
+  align-items: center;
+}
+.count_btn > button {
+  position: relative;
+  border: 0;
+  background: #fff;
+  color: #000;
+  width: 24px;
+  height: 24px;
+  font-size: 14px;
+}
+.count_btn .inp {
+  border: 1px solid #ddd;
+  height: 24px !important;
+  display: block;
+  width: 100%;
+  padding: 0;
+  flex-grow: 1;
+  flex-basis: 0;
+  text-align: center;
+  font-size: 14px;
+}
+.main_wrap .main_content .count_wrap span:last-child {
+  position: absolute;
+  right: 15%;
+  bottom: 31%;
+  font-size: 14px;
+}
+.main_wrap .main_content .main_price {
+  margin: 8% 10% 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+.main_wrap .main_content .main_price .last_price {
+  font-size: 24px;
+  font-weight: bold;
+}
+.main_wrap .main_content .main_button {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 5% 0 0 0;
+}
+.main_wrap .main_content .main_button .button_box {
+  display: flex;
+  gap: 10px;
+}
+.main_wrap .main_content .main_button .product {
+  border: 1px solid #404040;
+  background: #404040;
+  color: #fafafa;
+  padding: 2.3% 10%;
+  font-size: 14px;
+  border-radius: 30px;
+}
+.main_wrap .main_content .main_button .product:hover {
+  background: #202020;
+}
+.main_wrap .main_content .main_button .gift,
+.cart {
+  border: 1px solid #ddd;
+  padding: 2.3% 10%;
+  font-size: 14px;
+  border-radius: 30px;
+}
+.main_wrap .main_content .main_button .gift:hover {
+  border: 1px solid #1a1a1a;
+}
+.main_wrap .main_content .main_button .cart:hover {
+  border: 1px solid #1a1a1a;
+}
+.main_wrap .main_content .main_promotion {
+  display: flex;
+  gap: 10px;
+  padding: 0 2% 0 0;
+  font-family: "SUIT-Regular";
+  font-size: 14px;
+}
+.main_wrap .main_content .main_promotion .npay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #00de5a;
+  background: #00de5a;
+  padding: 2.5% 33%;
+  border-radius: 60px;
+}
+.main_wrap .main_content .main_promotion .npay img {
+  width: 18px;
+}
+.main_wrap .main_content .main_promotion button:last-child {
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  padding: 2.5% 3%;
+}
+.page_img {
+  padding: 0 20%;
+  margin: 3% auto;
 }
