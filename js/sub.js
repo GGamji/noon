@@ -1,3 +1,13 @@
+// GNB
+$("#gnb .dep1>li").hover(
+  function () {
+    $(this).children(".dep2_wrap").stop().show();
+  },
+  function () {
+    $(".dep2_wrap").slideUp().slow();
+  }
+);
+
 //수량 옵션
 count_number = {
   init: function () {

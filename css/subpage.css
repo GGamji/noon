@@ -44,20 +44,22 @@ header #gnb .dep1 > li {
 }
 header #gnb .dep2_wrap {
   display: none;
-  padding: 0 0 0 18.6%;
+  padding: 0 0 0 35%;
   position: absolute;
-  right: 0;
+  left: 0;
   top: 47px;
-  width: 100vw;
+  width: 100%;
+  /* transform: translateX(-1%); */
   height: 150px;
   background: #fff;
+  z-index: 10;
 }
 header #gnb .dep2 {
   display: flex;
   gap: 50px;
 }
 header #gnb .dep2 > li {
-  padding: 20px;
+  padding: 20px 0;
   width: 200px;
 }
 header #gnb .dep3 {
